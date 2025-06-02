@@ -11,9 +11,12 @@ Cada carpeta corresponde a una clase o bloque de ejercicios, ordenados de forma 
 
 - **Clase 3:** Comparación visual entre HTML con estilos personalizados (`style.css`), estilos de normalización (`normalize.css`), reinicio de estilos (`reset.css`) y sin ningún estilo aplicado. El objetivo es entender las diferencias en la renderización que aplica cada enfoque.
 
+- **Clases 6, 7 y 9:** Ejercicios enfocados en la correcta selección de elementos mediante selectores CSS. En cada enunciado se pide aplicar un estilo a un elemento específico, pero sin definir el estilo exacto. El objetivo principal es identificar y seleccionar correctamente el elemento según las condiciones indicadas, desarrollando precisión en el uso de selectores.
+
+
 ## ▶ Cómo visualizar los ejercicios
 
-Puedes clonar este repositorio y abrir los archivos `con-normalize.html`, `con-reset.html`, `sin-nada.html` o `index.html` directamente desde tu navegador.
+Puedes clonar este repositorio y abrir los archivos directamente desde tu navegador.
 
 
 
