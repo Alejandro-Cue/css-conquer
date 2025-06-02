@@ -478,5 +478,3 @@ div `*` ol {
 
 97. Seleccionar el primer y último
     p:fist-of-type, p:last-of-type {
-
-}
