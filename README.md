@@ -19,6 +19,12 @@ Cada carpeta corresponde a una clase o bloque de ejercicios, ordenados de forma 
 Puedes clonar este repositorio y abrir los archivos directamente desde tu navegador.
 
 
+- **Clase 11:** Se realizaron tres ejercicios de estilos CSS sobre la misma estructura de CV en HTML.  
+  Cada ejercicio consistió en aplicar cambios en tipografía, tamaños, colores, alineaciones y estilos de texto para asemejarse al ejemplo dado:  
+
+  - En `ejercicio-2.css` se combinan fuentes serif y sans-serif, se usan small-caps e itálicas, y se invierte el peso de negrita entre `li` y `strong`.  
+  - En `ejercicio-3.css` predominan fuentes serif clásicas, encabezados centrados y en mayúsculas, con `strong` subrayado.  
+  - En `ejercicio-4.css` se combinan fuentes sans-serif y serif, con colores específicos en títulos, alineaciones centradas, espaciados de letra y palabra, y estilos diferenciados en listas y `strong`.
 
 
 
