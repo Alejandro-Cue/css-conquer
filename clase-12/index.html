@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Uso de tipografías descargadas y Transfonter</title>
+    <meta name="description" content="Uso de tipografías descargadas en CSS " />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Descarga de fuentes y uso de `@face-font`</h1>
+      <hr />
+    </header>
+
+    <main>
+      <h2>Aplicación de las fuentes.</h2>
+      <p>
+        Descargamos una fuente observando que no tenga copyright, usamos
+        Transfonter para convertir la fuente en distintos tipos de fuente (.svg,
+        .woff, .woff2, .eot, .ttf)
+      </p>
+
+      <p>
+        El &lt;h1&gt; tiene una fuente importada previamente descargada.
+        Mientras que el &lt;h2&gt; es una fuente linkeada desde una página
+        externa. Para esta última forma de uso de fuente externa es necesario
+        añadir un link en el &lt;head&gt; con la ruta de la fuente con una
+        precarga. Por último añadir el font-family en el documento css.
+      </p>
+
+      <p>
+        La forma correcta en Europa debido a la protección de datos será
+        descargar la tipografía y transformarla con Transfonter y añadirla vía
+        importación. Esto se debe a que no es legal compartir la IP de otro
+        usuario sin su consentimiento. Esto es lo que ocurre cuando linkeas una
+        fuente en tu HTML para que sea renderizada.
+      </p>
+
+      <div><a href="ejercicio-fuentes.html">Ejercicio de Fuentes.</a></div>
+    </main>
+
+    <footer>
+      <p>Uso de @font-face ACM - 05/06/2025.</p>
+    </footer>
+  </body>
+</html>

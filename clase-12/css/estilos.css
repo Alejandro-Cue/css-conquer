@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Lofty Goals";
+  src: url("../fonts/LoftyGoals-Regular.eot");
+  src: url("../fonts/LoftyGoals-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/LoftyGoals-Regular.woff2") format("woff2"),
+    url("../fonts/LoftyGoals-Regular.woff") format("woff"),
+    url("../fonts/LoftyGoals-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&display=swap");
+
+h1 {
+  font-family: "Lofty Goals";
+}
+
+h2 {
+  font-family: "Edu VIC WA NT Hand Pre", cursive;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Borel", cursive;
+  font-weight: 400;
+}
