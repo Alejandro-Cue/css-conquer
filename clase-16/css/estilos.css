@@ -1,3 +1,19 @@
+li {
+  display: inline;
+  border: 2px solid black;
+  padding: 10px 5px;
+  background-color: cyan;
+}
+
+li + li {
+  margin-left: 10px;
+}
+
+li:hover {
+  color: cyan;
+  background-color: black;
+}
+
 p {
   padding: 0;
   margin: 0;
@@ -186,12 +202,14 @@ p {
   text-align: center;
 }
 
-footer {
+footer.positionExercise {
   width: 100%;
+  min-height: 100px;
   background-color: #5e5d5d;
   position: absolute;
+  align-content: center;
 }
-footer p {
+footer.positionExercise p {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
