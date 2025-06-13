@@ -1,0 +1,465 @@
+body.index {
+  background-color: bisque;
+}
+
+.index h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 60px;
+  text-align: center;
+  background: linear-gradient(to right, #06dcad, #03dff3);
+  padding: 10px;
+  width: 100%;
+}
+
+footer.index {
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to right, #06dcad, #03dff3);
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.index li {
+  display: inline-block;
+  width: 150px;
+  height: 60px;
+  border: 1px solid black;
+  background-color: #06dcad;
+  color: black;
+  margin-top: 5px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+li + li {
+  margin-left: 10px;
+}
+
+li:hover {
+  background-color: black;
+  color: #ed04f5;
+}
+
+header.menu a:first-of-type {
+  float: left;
+}
+
+header.menu a:nth-of-type(2) {
+  float: right;
+}
+
+footer.menu a:first-of-type {
+  float: left;
+}
+
+footer.menu a:nth-of-type(2) {
+  float: right;
+}
+
+.ejercicio1 div:nth-of-type(1) {
+  width: 40%;
+  height: 130px;
+  background-color: red;
+  text-align: left;
+  font-size: 30px;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+
+.ejercicio1 div:nth-of-type(2) {
+  width: 40%;
+  height: 130px;
+  background-color: blue;
+  text-align: left;
+  font-size: 30px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.ejercicio1 div:nth-of-type(3) {
+  width: 40%;
+  height: 260px;
+  background-color: green;
+  text-align: left;
+  font-size: 30px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.ejercicio1 div:nth-of-type(4) {
+  width: 40%;
+  height: 260px;
+  background-color: yellow;
+  text-align: left;
+  font-size: 30px;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+}
+
+.ejercicio2 div:nth-of-type(1) {
+  width: 175px;
+  height: 175px;
+  background-color: red;
+  text-align: left;
+  font-size: 30px;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+
+.ejercicio2 div:nth-of-type(2) {
+  width: 175px;
+  height: 175px;
+  background-color: blue;
+  text-align: left;
+  font-size: 30px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.ejercicio2 div:nth-of-type(3) {
+  width: 175px;
+  height: 175px;
+  background-color: green;
+  text-align: left;
+  font-size: 30px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.ejercicio2 div:nth-of-type(4) {
+  width: 175px;
+  height: 175px;
+  background-color: yellow;
+  text-align: left;
+  font-size: 30px;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+}
+
+.ejercicio3 div:nth-of-type(1) {
+  width: 600px;
+  height: 300px;
+  border: 1px solid black;
+  background-color: blue;
+  text-align: left;
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  left: 250px;
+  z-index: 1;
+}
+
+.ejercicio3 div:nth-of-type(2) {
+  width: 350px;
+  height: 300px;
+  border: 1px solid black;
+  background-color: green;
+  text-align: left;
+  font-size: 30px;
+  position: absolute;
+  top: 200px;
+  left: 120px;
+  z-index: 2;
+}
+
+.ejercicio3 div:nth-of-type(3) {
+  width: 425px;
+  height: 350px;
+  border: 1px solid black;
+  background-color: yellow;
+  text-align: left;
+  font-size: 30px;
+  position: absolute;
+  top: 100px;
+  right: 450px;
+  z-index: 2;
+}
+
+.ejercicio3 div:nth-of-type(4) {
+  width: 650px;
+  height: 175px;
+  border: 1px solid black;
+  background-color: red;
+  text-align: left;
+  font-size: 30px;
+  position: absolute;
+  bottom: 150px;
+  right: 550px;
+  z-index: 3;
+}
+
+main.ejercicio4 {
+  padding: 75px;
+  display: inline-block;
+  width: 100%;
+  height: 600px;
+}
+
+.ejercicio4 div:nth-of-type(1) {
+  width: 325px;
+  height: 500px;
+  background-color: green;
+  text-align: left;
+  font-size: 30px;
+  position: relative;
+  top: 30px;
+}
+
+.ejercicio4 div:nth-of-type(2) {
+  width: 325px;
+  height: 500px;
+  background-color: yellow;
+  text-align: left;
+  font-size: 30px;
+  position: relative;
+  left: 325px;
+  bottom: 470px;
+}
+
+.ejercicio4 div:nth-of-type(3) {
+  width: 325px;
+  height: 500px;
+  background-color: red;
+  text-align: left;
+  font-size: 30px;
+  position: relative;
+  left: 650px;
+  bottom: 970px;
+}
+
+.ejercicio4 div:nth-of-type(4) {
+  width: 325px;
+  height: 500px;
+  background-color: blue;
+  text-align: left;
+  font-size: 30px;
+  position: relative;
+  left: 975px;
+  bottom: 1470px;
+}
+
+.ejercicio5 div:nth-of-type(1) {
+  width: 1300px;
+  height: 150px;
+  font-size: 50px;
+  text-align: left;
+  text-decoration: solid;
+  background-color: yellow;
+  position: absolute;
+  bottom: 100px;
+  left: 80px;
+  z-index: 1;
+}
+
+.ejercicio5 div:nth-of-type(2) {
+  width: 1300px;
+  height: 150px;
+  font-size: 50px;
+  text-align: left;
+  text-decoration: solid;
+  background-color: red;
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  z-index: 1;
+}
+
+.ejercicio5 div:nth-of-type(3) {
+  width: 225px;
+  height: 650px;
+  font-size: 50px;
+  text-align: left;
+  text-decoration: solid;
+  background-color: blue;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  z-index: 2;
+}
+
+.ejercicio5 div:nth-of-type(4) {
+  width: 225px;
+  height: 650px;
+  font-size: 50px;
+  text-align: left;
+  text-decoration: solid;
+  background-color: green;
+  position: absolute;
+  top: 50px;
+  right: 300px;
+  z-index: 2;
+}
+
+.ejercicio6 div:nth-of-type(1) {
+  width: 200px;
+  height: 650px;
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: left;
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+
+.ejercicio6 div:nth-of-type(2) {
+  width: 200px;
+  height: 650px;
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: left;
+  position: absolute;
+  top: 30px;
+  left: 320px;
+}
+
+.ejercicio6 div:nth-of-type(3) {
+  width: 200px;
+  height: 650px;
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: left;
+  position: absolute;
+  top: 30px;
+  left: 540px;
+}
+
+.ejercicio6 div:nth-of-type(4) {
+  width: 200px;
+  height: 650px;
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: left;
+  position: absolute;
+  top: 30px;
+  left: 760px;
+}
+
+body.ejercicio7 {
+  width: 800px;
+}
+
+header.ejercicio7 {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+main.ejercicio7 {
+  height: 800px;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+footer.menu {
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  height: 100px;
+}
+
+.menu p {
+  font-size: 20px;
+}
+
+body.ejercicio8 {
+  width: 800px;
+}
+
+header.ejercicio8 {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+main.ejercicio8 section:nth-of-type(2) {
+  height: 600px;
+  width: 345px;
+  border: 1px solid black;
+  margin-right: 10px;
+  margin-bottom: 60px;
+  padding: 10px 20px;
+  position: absolute;
+  left: 10px;
+}
+
+main.ejercicio8 section:nth-of-type(1) {
+  height: 500px;
+  width: 345px;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 60px;
+  padding: 10px 20px;
+  position: absolute;
+  right: 720px;
+}
+
+footer.ejercicio8 {
+  border: 1px solid black;
+  width: 739px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+}
+
+footer.ejercicio8 a:first-of-type {
+  float: left;
+}
+
+footer.ejercicio8 a:nth-of-type(2) {
+  float: right;
+}
+
+header.ejercicio9 {
+  width: 98.5%;
+  height: 150px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.ejercicio9 section:nth-of-type(1) {
+  float: left;
+  margin: 10px;
+  border: 1px solid black;
+  width: 300px;
+  height: 50px;
+  padding: 5px;
+}
+
+.ejercicio9 section:nth-of-type(2) {
+  float: right;
+  margin: 10px;
+  border: 1px solid black;
+  width: 250px;
+  height: 25px;
+  padding: 5px;
+}
+
+.ejercicio9 section:nth-of-type(3) {
+  position: relative;
+  top: 70px;
+  left: 881px;
+  margin: 10px;
+  border: 1px solid black;
+  width: 600px;
+  height: 50px;
+  padding: 5px;
+  text-align: left;
+}
