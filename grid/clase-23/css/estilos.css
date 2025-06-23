@@ -1,0 +1,177 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+header.index {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(to right, yellow, red);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.index h1 {
+  width: 100%;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  padding: 20px 10px 0px 10px;
+  margin: 0;
+}
+
+.index p {
+  width: 60%;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  align-self: flex-end;
+}
+
+header.index a {
+  background-color: none;
+  font-style: italic;
+  text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.index ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 0;
+  background-image: linear-gradient(to left, yellow, red);
+}
+
+main.index li {
+  width: 10%;
+  height: 75px;
+  text-align: center;
+  list-style: none;
+  background-color: #18181f;
+  font-size: 20px;
+  align-content: center;
+}
+
+.index li:hover {
+  background-color: red;
+  color: black;
+}
+
+.index a {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  text-decoration: none;
+}
+
+footer.index {
+  position: fixed;
+  bottom: 0;
+  background-color: grey;
+  text-align: center;
+  width: 100%;
+  height: 125px;
+}
+footer.index p {
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  left: 20%;
+}
+
+section.grid {
+  display: grid;
+  width: 900px;
+  height: 240px;
+  text-align: center;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid div {
+  border: 1px solid black;
+  align-content: center;
+  font-size: 30px;
+  color: white;
+  background-color: blueviolet;
+}
+
+section.grid2 {
+  width: 300px;
+  height: 200px;
+  display: grid;
+  background-color: rgb(68, 205, 160);
+  grid-template-columns: 50px 100px;
+  grid-template-rows: 50px 100px 50px;
+  border: 5px solid grey;
+}
+
+.grid2 div {
+  color: white;
+  border: 2px solid white;
+}
+
+section.grid3 {
+  width: 600px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 100px);
+  background-color: pink;
+  text-align: center;
+  border: 5px solid grey;
+}
+
+.grid3 div {
+  color: white;
+  border: 2px solid white;
+  align-content: center;
+  font-size: 30px;
+}
+
+section.grid4 {
+  width: 800px;
+  height: 300px;
+  border: 5px solid grey;
+  padding: 2px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "Header Header Header Header"
+    "Main Main . Sidebar"
+    "Footer Footer Footer Footer";
+}
+
+.item-1 {
+  grid-area: Header;
+  background-color: pink;
+  align-content: center;
+  font-size: 40px;
+}
+
+.item-5 {
+  grid-area: Main;
+  background-color: cyan;
+  align-content: center;
+  font-size: 40px;
+}
+
+.item-8 {
+  grid-area: Sidebar;
+  background-color: green;
+  align-content: center;
+  font-size: 40px;
+}
+
+.item-9 {
+  grid-area: Footer;
+  background-color: grey;
+  align-content: center;
+  font-size: 40px;
+}
