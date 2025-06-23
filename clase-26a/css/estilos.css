@@ -1,0 +1,397 @@
+/* Index */
+
+header.index {
+  width: 100%;
+  height: 200px;
+  background-image: radial-gradient(cyan, #5df0b3);
+  text-align: center;
+}
+
+.index h1 {
+  margin-top: 0;
+  padding-top: 50px;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.index p {
+  margin-top: 70px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+main.index {
+  background-image: radial-gradient(cyan, #5df0b3);
+  height: 400px;
+}
+
+.index ul {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 50px;
+  gap: 200px;
+  justify-content: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.index li {
+  border: 2px solid black;
+  list-style: none;
+  background-color: darkblue;
+  color: white;
+  align-content: center;
+  text-align: center;
+}
+
+.index li:hover {
+  background-color: red;
+  color: darkblue;
+}
+
+.index a {
+  text-decoration: none;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+footer.index {
+  width: 100%;
+  height: 150px;
+  background-image: radial-gradient(cyan, #5df0b3);
+  text-align: center;
+  position: fixed;
+}
+
+footer.index p {
+  margin: 20px 0px 0px 0px;
+}
+
+/* Header genérico */
+
+header.header {
+  width: 100%;
+  height: 150px;
+  background-image: linear-gradient(to right, cyan, #4dd3a2);
+}
+
+.header h1 {
+  font-size: 35px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0;
+}
+
+.header nav {
+  margin-top: 50px;
+}
+
+.header a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: small-caps;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: black;
+}
+
+.header a:hover {
+  color: red;
+}
+
+main {
+  background-image: linear-gradient(
+    to right,
+    rgb(133, 15, 50),
+    rgb(184, 25, 184)
+  );
+}
+
+section.ejercicio1 {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-areas:
+    "item-1 item-2 item-3 item-4 item-5 item-7 item-8 item-8 item-9 item-10"
+    "item-6 item-6 item-6 item-6 item-6 item-6 item-11 item-13 item-9 item-14"
+    "item-12 item-12 item-12 item-12 item-12 item-12 item-15 item-16 item-16 item-17"
+    "item-19 item-20 item-21 item-22 item-18 item-18 item-18 item-18 item-18 item-18"
+    "item-23 item-24 item-24 item-25 item-18 item-18 item-18 item-18 item-18 item-18"
+    "item-26 item-27 item-28 item-29 item-30 item-30 item-30 item-30 item-30 item-30"
+    "item-31 item-27 item-32 item-32 item-33 item-34 item-35 item-37 item-38 item-39";
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.ejercicio1 .item-1 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-1;
+}
+.ejercicio1 .item-2 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-2;
+}
+.ejercicio1 .item-3 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-3;
+}
+.ejercicio1 .item-4 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-4;
+}
+.ejercicio1 .item-5 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-5;
+}
+.ejercicio1 .item-6 {
+  background-color: rgb(49, 165, 237);
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-6;
+}
+.ejercicio1 .item-7 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-7;
+}
+
+.ejercicio1 .item-8 {
+  background-color: rgb(224, 115, 5);
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-8;
+}
+.ejercicio1 .item-9 {
+  background-color: rgb(111, 241, 185);
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-9;
+}
+.ejercicio1 .item-10 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-10;
+}
+.ejercicio1 .item-11 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-11;
+}
+.ejercicio1 .item-12 {
+  background-color: rgb(49, 165, 237);
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-12;
+}
+.ejercicio1 .item-13 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-13;
+}
+.ejercicio1 .item-14 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-14;
+}
+.ejercicio1 .item-15 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-15;
+}
+.ejercicio1 .item-16 {
+  background-color: rgb(224, 115, 5);
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-16;
+}
+.ejercicio1 .item-17 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-17;
+}
+.ejercicio1 .item-18 {
+  background-color: rgb(69, 133, 35);
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-18;
+}
+.ejercicio1 .item-19 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-19;
+}
+.ejercicio1 .item-20 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-20;
+}
+.ejercicio1 .item-21 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-21;
+}
+.ejercicio1 .item-22 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-22;
+}
+.ejercicio1 .item-23 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-23;
+}
+.ejercicio1 .item-24 {
+  background-color: rgb(224, 115, 5);
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-24;
+}
+.ejercicio1 .item-25 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-25;
+}
+.ejercicio1 .item-26 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-26;
+}
+.ejercicio1 .item-27 {
+  background-color: rgb(111, 241, 185);
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-27;
+}
+.ejercicio1 .item-28 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-28;
+}
+.ejercicio1 .item-29 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-29;
+}
+.ejercicio1 .item-30 {
+  background-color: rgb(49, 165, 237);
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-30;
+}
+.ejercicio1 .item-31 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-31;
+}
+.ejercicio1 .item-32 {
+  background-color: rgb(224, 115, 5);
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-32;
+}
+.ejercicio1 .item-33 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-33;
+}
+.ejercicio1 .item-34 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-34;
+}
+.ejercicio1 .item-35 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-35;
+}
+.ejercicio1 .item-37 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-37;
+}
+.ejercicio1 .item-38 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-38;
+}
+.ejercicio1 .item-39 {
+  background-color: gold;
+  font-weight: bold;
+  font-size: 30px;
+  align-content: center;
+  grid-area: item-39;
+}
