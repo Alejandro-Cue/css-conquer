@@ -503,20 +503,25 @@ section.ejercicio10 {
 .item-4 .item-6 {
   background-color: #99b7e9;
   grid-area: item-6;
+  color: black;
 }
 .item-4 .item-7 {
   background-color: #99b7e9;
   grid-area: item-7;
+  color: black;
 }
 .item-4 .item-8 {
   background-color: #99b7e9;
   grid-area: item-8;
+  color: black;
 }
 .item-4 .item-9 {
   background-color: #99b7e9;
   grid-area: item-9;
+  color: black;
 }
 .item-4 .item-10 {
   background-color: #99b7e9;
   grid-area: item-10;
+  color: black;
 }
