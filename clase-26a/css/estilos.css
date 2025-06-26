@@ -109,7 +109,7 @@ main {
 }
 
 section.ejercicio1 {
-  width: 100%;
+  width: 98.8%;
   height: 100%;
   display: grid;
   grid-template-columns: repeat(10, 1fr);

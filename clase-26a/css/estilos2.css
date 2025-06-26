@@ -1,0 +1,204 @@
+body.adv {
+  background-image: linear-gradient(to right, #8e0606e2, #a81392);
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  grid-template-areas:
+    "hero hero cta-1"
+    "hero hero cta-2";
+  gap: 20px;
+}
+
+.hero {
+  grid-area: hero;
+  position: relative;
+  background-image: url(../img/food-8504107_1280.jpg);
+  background-size: cover;
+  display: flex;
+  padding: 50px;
+  align-items: start;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.hero h1,
+.hero p {
+  background-color: gold;
+  width: max-content;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.cta-1 {
+  grid-area: cta-1;
+}
+.cta-2 {
+  grid-area: cta-2;
+}
+
+.cta-1,
+.cta-2 {
+  background-color: gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+  flex-wrap: wrap;
+  padding: 20px;
+  align-content: center;
+}
+
+.cta-1:hover,
+.cta-2:hover {
+  color: gold;
+  background-color: black;
+}
+
+.price {
+  font-size: 60px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  font-weight: 600;
+}
+
+.name {
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+
+nav {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+ul {
+  padding-left: 0;
+  display: flex;
+}
+
+li {
+  list-style: none;
+  width: 20%;
+  height: 40px;
+  background-color: gold;
+  text-align: center;
+  padding: 5px;
+}
+
+li + li {
+  margin-left: 10px;
+}
+
+li > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 22px;
+}
+ul li:hover {
+  background-color: black;
+  color: gold;
+}
+li a:hover {
+  color: gold;
+}
+
+.destacado {
+  display: flex;
+}
+
+.destacado article {
+  background-color: white;
+  text-align: center;
+  width: 25%;
+  margin-bottom: 40px;
+  padding: 15px;
+}
+article + article {
+  margin-left: 15px;
+}
+
+article > p:first-child {
+  font-size: 60px;
+  margin: 10px;
+}
+
+article > p:nth-of-type(2) {
+  color: grey;
+  font-weight: bold;
+}
+
+article.destacado {
+  background-color: white;
+}
+
+.destacado-info {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+
+.destacado-info p {
+  font-weight: bold;
+}
+
+.destacado-info a {
+  background-color: gold;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: inline-block;
+}
+
+.instagram h2 {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.instagram h2:after {
+  content: "";
+  height: 10px;
+  display: block;
+  background-image: linear-gradient(to left, transparent, gold);
+}
+
+.instagram h2:before {
+  content: "";
+  height: 10px;
+  display: block;
+  background-image: linear-gradient(to right, transparent, gold);
+}
+
+.instagram div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 10px;
+}
+
+.instagram img {
+  object-fit: cover;
+}
