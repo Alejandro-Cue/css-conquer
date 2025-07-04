@@ -1,0 +1,243 @@
+header.index {
+  width: 99.7%;
+  height: 170px;
+  background-color: beige;
+}
+
+.index h1 {
+  font-size: 28px;
+  font-family: "Courier New", Courier, monospace;
+  color: brown;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 70px;
+  padding: 20px;
+}
+
+.index p {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: brown;
+}
+
+.index li {
+  padding-left: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.index li + li {
+  margin-top: 20px;
+}
+
+.index a {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.index a:hover {
+  color: red;
+  background-color: blue;
+}
+
+header.generico {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.generico h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: blue;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.generico nav a {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 7px;
+  border: 2px solid black;
+  background-color: blue;
+  color: red;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px 15px;
+  margin-bottom: 75px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.generico nav a:hover {
+  background-color: red;
+  color: blue;
+}
+
+footer.generico {
+  position: fixed;
+  bottom: 0px;
+  width: 99.9%;
+}
+
+footer.generico div {
+  background-color: #555353;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Lista 1 */
+
+.lista1 ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.lista1 ul li {
+  display: inline-block;
+  width: 400px;
+  list-style: none;
+  padding: 10px;
+}
+
+.lista1 ul li + li {
+  border-top: 1px solid #e4d8d8;
+}
+
+/* Lista 2 */
+
+.lista2 ul li {
+  border: 1px solid #cbbdbd;
+  padding: 15px 10px;
+  width: 400px;
+  list-style: none;
+}
+
+.lista2 ul li.active {
+  background-color: rgb(63, 112, 246);
+  color: white;
+}
+
+.lista2 ul li:nth-child(1) {
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+.lista2 ul li:nth-child(5) {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.lista2 ul li:hover {
+  background-color: rgb(63, 112, 246);
+  color: white;
+}
+
+/* Lista 3 */
+
+.lista3 ul {
+  border: 1px solid #cbbdbd;
+  border-radius: 3px;
+  width: 400px;
+  margin: 20px;
+  padding: 0;
+}
+
+.lista3 ul li {
+  border: 1px solid #cbbdbd;
+  list-style: none;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lista3 ul span {
+  text-align: center;
+  display: inline-block;
+  width: 15px;
+  background-color: rgb(59, 94, 233);
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 25px;
+  padding: 2px 6px;
+  cursor: pointer;
+}
+
+.lista3 ul li:hover {
+  background-color: rgb(59, 94, 233);
+  color: white;
+}
+
+.lista3 ul li:hover span {
+  background-color: white;
+  color: rgb(59, 94, 233);
+}
+
+/* Ejercicio 4 */
+
+section.lista4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lista4 ul {
+  border: 2px solid #cbbdbd;
+}
+
+.lista4 ul li {
+  padding: 10px 15px;
+}
+
+.lista4 ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.lista4 ul.sublist1 li {
+  list-style-image: url(../img/checked.png);
+}
+
+.lista4 ul.sublist2 li {
+  list-style-image: url(../img/arrow-right.png);
+}
+.lista4 ul.sublist3 li {
+  list-style-image: url(../img/placeholder.png);
+}
+
+/* Ejercicio 6 */
+
+.lista6 ol li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px solid rgb(234, 222, 222);
+  padding: 10px 15px;
+  width: 300px;
+}
+
+ol.counter {
+  counter-reset: step-counter;
+  list-style: none;
+}
+
+.counter li::before {
+  counter-increment: step-counter;
+  content: counter(step-counter);
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 25px;
+  margin-right: 5px;
+}
