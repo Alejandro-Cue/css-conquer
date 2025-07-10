@@ -49,6 +49,8 @@ header.index {
 .index li a:hover {
   background-color: aquamarine;
   color: black;
+  transform: scale(1.5);
+  transition: all 0.5s ease;
 }
 
 footer.index {
