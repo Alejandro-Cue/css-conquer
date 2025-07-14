@@ -1,10 +1,9 @@
-$primary-color: blue;
-$secondary-color: green;
+@use "_variables" as v;
 
 h1 {
-    color: $primary-color;
+    color: v.$primary-color;
 }
 
 p {
-    color: $secondary-color;
+    color: v.$secondary-color;
 }
