@@ -1,8 +1,24 @@
-@import './abstracts/abstracts';
-@import './vendors/vendors';
-@import './base/base';
-@import './components/components';
-@import './layout/layout';
-@import './pages/pages';
-@import './themes/themes';
-@import 'settings';
+// abstracts siempre va primero (variables, mixins, functions, etc.)
+@use './abstracts' as abs;
+
+// vendors (si tienes librerías externas como normalize.css o similares)
+@use './vendors' as v;
+
+// base (reset, typography, base)
+@use './base' as base;
+
+// layout (grid, navbar, sidebar, footer…)
+@use './layout' as lay;
+
+// components (buttons, cards, modals…)
+@use './components' as comp;
+
+// pages (home, about, etc.)
+@use './pages' as page;
+
+// themes (colores, dark mode, etc.)
+@use './themes' as theme;
+
+// settings (si es un archivo aparte, también se mete con @use)
+@use './settings' as set;
+
